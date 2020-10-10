@@ -17,3 +17,9 @@ Reading:
 	CSV tableFromStream: 'file.csv' asFilename readStream.
 	CSV tableFromStream: 'file.csv' asFilename readStream separator: $;.
 ```
+
+The code lives in the public store `store.cincomsmalltalk.com:5432_store_public`. 
+The sources are stored here as well for people without access to VisualWorks or store.
+* `CSV.pcl` and `CSV.pst` together is a parcel for VisualWorks.
+* `CSVvw.st` is a fileout in VisualWorks XML source format.
+* `CSV.st` is a fileout in the original chunk format which can be read by all Smalltalks.
